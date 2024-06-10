@@ -1,0 +1,79 @@
+:root {
+    font-size: 10pt;
+}
+
+#title{
+    font-size: 30pt;
+}
+
+.font-red{
+    color: rgb(255, 0, 221);
+}
+
+fieldset {
+    width: 30%;
+}
+
+.font-tiny {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input {
+    margin: 10px;
+    padding: 30px;
+    transition: all 0.5s ease;
+    transition: background-color 1s ease;
+}
+
+input:hover{
+    background-color: brown;
+}
+
+input:focus{
+    border-color: brown;
+    border-style: ridge;
+    border-width: 10pt;
+}
+
+#field_user{
+    background-image: url("https://cdn-icons-png.freepik.com/512/4647/4647172.png");
+    background-color: bisque;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+table, th, tr, td {
+    border: 1pt solid;
+    border-collapse: collapse;
+    border-color: black;
+}
+
+thead {
+    border-bottom: 2pt solid red;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.strips > li:nth-child(even) {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#chat_button{
+    position: relative;
+}
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: chartreuse !important;
+  }
